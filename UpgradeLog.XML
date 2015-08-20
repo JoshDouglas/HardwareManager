@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="HardwareBrowser">
+</Property><Property Name="Solution File" Value="E:\Development\HardwareBrowser\HardwareBrowser.sln">
+</Property><Property Name="Date" Value="Friday, January 25, 2013">
+</Property><Property Name="Time" Value="11:54 AM">
+</Property></Properties><Event ErrorLevel="0" Project="HardwareBrowser" Source="HardwareBrowser\HardwareBrowser.vbproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="HardwareBrowser" Source="HardwareBrowser\HardwareBrowser.vbproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="HardwareBrowser.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="HardwareBrowser.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="HardwareBrowser" Source="HardwareBrowser\HardwareBrowser.vbproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

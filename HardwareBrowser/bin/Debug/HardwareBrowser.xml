@@ -1,0 +1,334 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+HardwareBrowser
+</name>
+</assembly>
+<members>
+<member name="M:HardwareBrowser.DB.GetLocation(System.String)">
+	<summary>
+ Returns location information from the database.
+ </summary>
+	<param name="Description"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:HardwareBrowser.DB.GetManufacturer(System.String)">
+	<summary>
+ Returns manufacturer information form the database.
+ </summary>
+	<param name="CompanyName"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:HardwareBrowser.DB.GetModel(System.String)">
+	<summary>
+ Returns model information from the database.
+ </summary>
+	<param name="ModelName"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:HardwareBrowser.DB.GetUser(System.String)">
+	<summary>
+ Returns users information from the database.
+ </summary>
+	<param name="LoginName"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:HardwareBrowser.DB.GetHardware(System.String)">
+	<summary>
+ Returns hardware info from the database.
+ </summary>
+	<param name="SerialNumber"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:HardwareBrowser.DB.InsertAdmin(System.String,System.String)">
+	<summary>
+ Inserts a new admin into the database.
+ </summary>
+	<param name="UserName"></param>
+	<param name="Password"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:HardwareBrowser.DB.InsertLocation(System.String,System.String)">
+	<summary>
+ Inserts a new location into the database.
+ </summary>
+	<param name="Description"></param>
+	<param name="Notes"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:HardwareBrowser.DB.InsertManufacturer(System.String,System.String,System.String,System.String)">
+	<summary>
+ Inserts a new manufacturer into the database.
+ </summary>
+	<param name="CompanyName"></param>
+	<param name="ReturnAddress"></param>
+	<param name="PhoneNum"></param>
+	<param name="ReturnInstructions"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:HardwareBrowser.DB.InsertModel(System.String,System.String,System.String,System.String)">
+	<summary>
+ Inserts a new model into the database.
+ </summary>
+	<param name="Manufacturer"></param>
+	<param name="Description"></param>
+	<param name="ModelName"></param>
+	<param name="PartNumber"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:HardwareBrowser.DB.InsertUser(System.String,System.String,System.String,System.String,System.String,System.String)">
+	<summary>
+ Inserts a new user into the database.
+ </summary>
+	<param name="FirstName"></param>
+	<param name="LastName"></param>
+	<param name="PhoneNumber"></param>
+	<param name="LoginName"></param>
+	<param name="Location"></param>
+	<param name="Purpose"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:HardwareBrowser.DB.InsertHardware(System.String,System.String,System.String,System.String,System.Boolean,System.String,System.DateTime,System.DateTime,System.String)">
+	<summary>
+ Inserts a hardware and its lease info into the database.
+ </summary>
+	<param name="SerialNumber"></param>
+	<param name="User"></param>
+	<param name="Notes"></param>
+	<param name="Model"></param>
+	<param name="HasLease"></param>
+	<param name="AssetTag"></param>
+	<param name="StartDate"></param>
+	<param name="EndDate"></param>
+	<param name="ReplacedAsset"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:HardwareBrowser.DB.ValidateAdmin(System.String,System.String)">
+	<summary>
+ Validates an admin login attempt.
+ </summary>
+	<param name="UserName"></param>
+	<param name="Password"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:HardwareBrowser.DB.DeleteAdmin(System.String)">
+	<summary>
+ Deletes an admin from the database.
+ </summary>
+	<param name="UserName"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:HardwareBrowser.DB.GetAdmins">
+	<summary>
+ Returns all the admin usernames.
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:HardwareBrowser.DB.GetAllManufacturerNames">
+	<summary>
+ Returns all the manufacturer names.
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:HardwareBrowser.DB.GetAllModelNames">
+	<summary>
+ Returns all the model names.
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:HardwareBrowser.DB.GetAllLocationNames">
+	<summary>
+ Returns all location names.
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:HardwareBrowser.DB.GetAllUsers">
+	<summary>
+ Returns all user names.
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:HardwareBrowser.DB.GetAllPurpose">
+	<summary>
+ Returns all purposes.
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:HardwareBrowser.DB.DeleteManufacturer(System.String)">
+	<summary>
+ Deletes a manufacturer from the database.
+ </summary>
+	<param name="CompanyName"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:HardwareBrowser.DB.DeleteModel(System.String)">
+	<summary>
+ Deletes a model from the database.
+ </summary>
+	<param name="ModelName"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:HardwareBrowser.DB.DeleteLocation(System.String)">
+	<summary>
+ Deletes a location from the database.
+ </summary>
+	<param name="Description"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:HardwareBrowser.DB.DeleteUser(System.String)">
+	<summary>
+ Deletes a user from the database.
+ </summary>
+	<param name="LoginName"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:HardwareBrowser.DB.DeleteHardware(System.String)">
+	<summary>
+ Deletes a hardware and its lease info from the database.
+ </summary>
+	<param name="SerialNumber"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:HardwareBrowser.DB.UpdateUser(System.String,System.String,System.String,System.String,System.String,System.String)">
+	<summary>
+ Updates a user in the database.
+ </summary>
+	<param name="FirstName"></param>
+	<param name="LastName"></param>
+	<param name="PhoneNumber"></param>
+	<param name="LoginName"></param>
+	<param name="Location"></param>
+	<param name="Purpose"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:HardwareBrowser.DB.UpdateHardware(System.String,System.String,System.String,System.String,System.Boolean,System.String,System.DateTime,System.DateTime,System.String)">
+	<summary>
+ Updates a hardware in the database.
+ </summary>
+	<param name="SerialNumber"></param>
+	<param name="User"></param>
+	<param name="Notes"></param>
+	<param name="Model"></param>
+	<param name="HasLease"></param>
+	<param name="AssetTag"></param>
+	<param name="StartDate"></param>
+	<param name="EndDate"></param>
+	<param name="ReplacedAsset"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:HardwareBrowser.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:HardwareBrowser.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:HardwareBrowser.My.Resources.Resources.ConnectionString">
+	<summary>
+  Looks up a localized string similar to Data Source=.\SQLEXPRESS;Initial Catalog=HardwareBrowser;Trusted_Connection=True;.
+</summary>
+</member><member name="T:HardwareBrowser.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="M:HardwareBrowser.frmMain.btnExit_Click(System.Object,System.EventArgs)">
+	<summary>
+ Exits the application.
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:HardwareBrowser.frmMain.ExitToolStripMenuItem_Click(System.Object,System.EventArgs)">
+	<summary>
+ Exits the application.
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:HardwareBrowser.frmMain.btnViewHW_Click(System.Object,System.EventArgs)">
+	<summary>
+ Navigates to view hardware tab.
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:HardwareBrowser.frmMain.btnEditHW_Click(System.Object,System.EventArgs)">
+	<summary>
+ Navigates to edit hardware tab.
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:HardwareBrowser.frmMain.btnAddHW_Click(System.Object,System.EventArgs)">
+	<summary>
+ Navigates to add hardware tab.
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:HardwareBrowser.frmMain.btnRemoveHW_Click(System.Object,System.EventArgs)">
+	<summary>
+ Navigates to remove hardware tab.
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:HardwareBrowser.frmMain.btnAdministration_Click(System.Object,System.EventArgs)">
+	<summary>
+ Navigates to the administration tab.
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:HardwareBrowser.frmMain.AboutToolStripMenuItem_Click(System.Object,System.EventArgs)">
+	<summary>
+ Displays about information for the program.
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:HardwareBrowser.frmMain.ResetTab(System.Object,System.Windows.Forms.ControlEventArgs)">
+	<summary>
+ Clears all input controls on the tab when the selected tab changes.
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:HardwareBrowser.frmMain.ResetControls(System.Windows.Forms.Control)">
+	<summary>
+ Resets all text input, items, and checked input for all controls on the passed control.
+ </summary>
+	<param name="c"></param>
+	<remarks></remarks>
+</member><member name="M:HardwareBrowser.frmMain.frmMain_Load(System.Object,System.EventArgs)">
+	<summary>
+ Sets all the proper visual displays, tooltips, and begins login for the program.
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:HardwareBrowser.frmMain.SetSecurity(System.String,System.Int32)">
+	<summary>
+ Gets the admin login details.
+ </summary>
+	<param name="User"></param>
+	<param name="Validated"></param>
+	<remarks></remarks>
+</member><member name="M:HardwareBrowser.frmMain.tsbLogout_Click(System.Object,System.EventArgs)">
+	<summary>
+ Restarts the application for new user to login.
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="T:HardwareBrowser.frmMain">
+	<summary>
+ Author: Josh Douglas
+ </summary>
+	<remarks></remarks>
+</member>
+</members>
+</doc>
